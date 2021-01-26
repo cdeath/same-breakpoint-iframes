@@ -1,7 +1,5 @@
-# same breakpoint iframes
-
 iframes and media-queries don't get along well...  
-...so i fixed it.
+...so [i fixed it](https://github.com/cdeath/same-breakpoint-iframes/).
 
 here you'll find two solutions:
 
