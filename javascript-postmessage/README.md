@@ -1,6 +1,6 @@
-# @cdeath's same breakpoint iframes
+# same breakpoint iframes
 
-javascript solution with postMessage
+### javascript solution with postMessage
 
 the trick:
 - all iframes must have `width: 100vw` and a wrapper with `overflow: hidden` that clips the iframe
