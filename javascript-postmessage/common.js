@@ -11,6 +11,7 @@ function setWidth(breakpoints) {
       innerHTML = '';
 
   breakpoints.forEach(function(breakpoint) {
+    // add !important if it's really important :D
     var str = 'html,body{width:' + breakpoint.width + ';}';
 
     if (sizes[breakpoint.size]) {
