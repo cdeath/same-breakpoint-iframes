@@ -27,16 +27,15 @@ function setWidth(breakpoints) {
 
 window.addEventListener('message', function(event) {
   console.log(document.title, event.data);
-  // validate your origins here
-  if (event.origin === window.parent.location.origin) {
-      switch (event.data.action) {
-        case 'setWidth':
-          // structure the data as you see fit...
-          setWidth(event.data.breakpoints);
-          break;
-        // bonus points: you can use this for other stuff :D
-        default:
-          break;
-      } 
-  }
+  // uncomment and validate your origins here
+  // if (event.origin !== window.parent.location.origin) return;
+  switch (event.data.action) {
+    case 'setWidth':
+      // structure the data as you see fit...
+      setWidth(event.data.breakpoints);
+      break;
+    // bonus points: you can use this for other stuff :D
+    default:
+      break;
+  } 
 });

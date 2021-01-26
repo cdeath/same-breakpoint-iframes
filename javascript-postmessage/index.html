@@ -80,7 +80,8 @@
       function sendMessage(target, message) {
         var iframe = document.getElementById(target);
         iframe.addEventListener('load', function() {
-          iframe.contentWindow.postMessage(message, location.origin);
+          // do NOT use * for other than testing!
+          iframe.contentWindow.postMessage(message, '*');
         });
       }
       sendMessage('appbar', {action: 'setWidth', breakpoints: [{width: '80px'}]});
