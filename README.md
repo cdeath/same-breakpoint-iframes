@@ -5,7 +5,7 @@ iframes and media-queries don't get along well...
 
 here you'll find two solutions:
 
-- a pure css solution
-- a javascript solution with postMessage
+- [a pure css solution](https://github.com/cdeath/same-breakpoint-iframes/tree/main/pure-css)
+- [a javascript solution with postMessage](https://github.com/cdeath/same-breakpoint-iframes/tree/main/javascript-postmessage)
 
 have fun!
