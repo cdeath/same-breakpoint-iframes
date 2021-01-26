@@ -1,6 +1,6 @@
 # same breakpoint iframes
 
-## pure css solution
+### pure css solution
 
 the trick:
 - all iframes must have `width: 100vw` and a wrapper with `overflow: hidden` that clips the iframe
