@@ -1,4 +1,4 @@
-# @cdeath's same breakpoint iframes
+# same breakpoint iframes
 
 iframes and media-queries don't get along well...  
 ...so i fixed it.
